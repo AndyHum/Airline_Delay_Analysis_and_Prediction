@@ -18,7 +18,7 @@ Pengcheng Guo,Allie Boucher, Xuan Liu
 ---
 
 
-##  Data Analysis
+##  Data Analysis(Use mapreduce function to analysis)
 (Sort out the shutdown airline before that)
 - which day of week is the most likely to delay
 - what time of day 
