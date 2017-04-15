@@ -34,7 +34,7 @@ Pengcheng Guo,Allie Boucher, Xuan Liu
 
 ---
 
-- From where to where. When is the best day(dalay possibility), best time, best airline
+- From Boston to where. When is the best day(dalay possibility), best time, best airline
 
 ---
 
