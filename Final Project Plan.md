@@ -32,7 +32,7 @@ Pengcheng Guo,Allie Boucher, Xuan Liu
 
 ## Machine Learning( use ANN methord )
 
-### Recommendation
+### Prediction
 
 ---
 
