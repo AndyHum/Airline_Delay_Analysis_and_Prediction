@@ -26,9 +26,11 @@ Pengcheng Guo,Allie Boucher, Xuan Liu
 - Bar graph of number of times delay for each year from 2003-2008
 - Possibilty of delay for old plane comparing to new plane
 
+(1. use python first to pick out the origin is Boston)
+(2. save in a txt file)
+(3. use mapreduce to finish each goals)
 
-
-## Machine Learning
+## Machine Learning( use ANN methord )
 
 ### Recommendation
 
