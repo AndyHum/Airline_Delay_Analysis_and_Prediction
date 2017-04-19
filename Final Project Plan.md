@@ -15,6 +15,19 @@ Pengcheng Guo,Allie Boucher, Xuan Liu
 
 [Flight Info](http://stat-computing.org/dataexpo/2009/the-data.html)
 
+BostonData 
+- Only includes data where the flight originated from Boston
+
+| Column  | Description |
+| ------------- | ------------- |
+| Month  | Months 1-12  |
+| DayOfWeek  | Day of the week 1-7  |
+| DepartureHour  | Hour of Departure 0-23  |
+| Destination  | Airport code for Destination |
+| Distance  | Distance in Miles  |
+| DelayInMin  | Difference between scheduled arrival time and actual arrival time  |
+| DelayCode  | -1 = Early by more than 10 min, 0 = On time, 1 = Late by more than 10 min  |
+
 ---
 
 
