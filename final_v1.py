@@ -15,15 +15,15 @@ Y = dataset[:,5]
 
 # create model
 model = Sequential()
-model.add(Dense(12, input_dim=8, activation='relu'))
+model.add(Dense(12, input_dim=5, activation='relu'))
 model.add(Dense(8, activation='relu'))
 model.add(Dense(1, activation='linear'))
 
 # Compile model
-model.compile(loss='mean_absolute_error', optimizer='adam', metrics=['accuracy'],verbose=1)
+model.compile(loss='mean_absolute_error', optimizer='adam', metrics=['accuracy'])
 
 # Fit the model
-model.fit(X, Y, epochs=300, batch_size=200)
+model.fit(X, Y, epochs=300, batch_size=200,verbose=1)
 
 # evaluate the model
 scores = model.evaluate(X, Y)
