@@ -4,8 +4,6 @@ import numpy
 # fix random seed for reproducibility
 numpy.random.seed(7)
 
-
-
 # load pima indians dataset
 dataset = numpy.loadtxt("Boston.csv", delimiter=",")
 # split into input (X) and output (Y) variables
@@ -17,13 +15,13 @@ Y = dataset[:,5]
 model = Sequential()
 model.add(Dense(12, input_dim=5, activation='relu'))
 model.add(Dense(8, activation='relu'))
-model.add(Dense(1, activation='linear'))
+model.add(Dense(1, activation='relu'))
 
 # Compile model
 model.compile(loss='mean_absolute_error', optimizer='adam', metrics=['accuracy'])
 
-# Fit the model
-model.fit(X, Y, epochs=300, batch_size=200,verbose=1)
+# Fit the mode
+model.fit(X, Y, epochs=100, batch_size=5000,verbose=2)
 
 # evaluate the model
 scores = model.evaluate(X, Y)
