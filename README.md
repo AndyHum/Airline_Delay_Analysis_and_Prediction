@@ -3,6 +3,7 @@
 
 ### Project Goal
 - Build a model which would allow a consumer to predict whether a flight they were interested in purchasing was most likely to arrive at their destination early, on time, or late
+- [Presentation link](https://docs.google.com/presentation/d/1P1BI2mJlrLHNobPnheyjfPY0YcmoHqkmKGBNyrx2mLY/edit?usp=sharing)
 
 
 ### The Data 
