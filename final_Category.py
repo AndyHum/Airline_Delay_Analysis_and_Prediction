@@ -36,7 +36,6 @@ encoded_Y = encoder.transform(Y)
 # convert integers to dummy variables (i.e. one hot encoded)
 dummy_y = np_utils.to_categorical(encoded_Y)
 
-
 estimator = KerasClassifier(build_fn=baseline_model, epochs=200, batch_size=1000, verbose=2)
 kfold = KFold(n_splits=4, shuffle=True, random_state=seed)
 
